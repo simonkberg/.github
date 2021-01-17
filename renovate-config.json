@@ -7,9 +7,35 @@
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
+      "updateTypes": ["minor", "patch"],
       "groupName": "all dev dependencies",
-      "groupSlug": "dev-dependencies",
+      "groupSlug": "all-non-major-dev-dependencies",
+      "commitMessageSuffix": "(non-major)",
       "semanticCommitType": "chore"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["major"],
+      "groupName": "all dev dependencies",
+      "groupSlug": "all-major-dev-dependencies",
+      "commitMessageSuffix": "(major)",
+      "semanticCommitType": "feat"
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["minor", "patch"],
+      "groupName": "all dependencies",
+      "groupSlug": "all-non-major-dependencies",
+      "commitMessageSuffix": "(non-major)",
+      "semanticCommitType": "feat"
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["major"],
+      "groupName": "all dependencies",
+      "groupSlug": "all-major-dependencies",
+      "commitMessageSuffix": "(major)",
+      "semanticCommitType": "feat"
     }
   ]
 }
