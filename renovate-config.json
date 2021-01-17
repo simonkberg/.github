@@ -10,7 +10,7 @@
       "updateTypes": ["minor", "patch"],
       "groupName": "all dev dependencies",
       "groupSlug": "all-non-major-dev-dependencies",
-      "commitMessageSuffix": "(non-major)",
+      "commitMessageExtra": "(non-major)",
       "semanticCommitType": "chore"
     },
     {
@@ -18,7 +18,7 @@
       "updateTypes": ["major"],
       "groupName": "all dev dependencies",
       "groupSlug": "all-major-dev-dependencies",
-      "commitMessageSuffix": "(major)",
+      "commitMessageExtra": "(major)",
       "semanticCommitType": "feat"
     },
     {
@@ -26,7 +26,7 @@
       "updateTypes": ["minor", "patch"],
       "groupName": "all dependencies",
       "groupSlug": "all-non-major-dependencies",
-      "commitMessageSuffix": "(non-major)",
+      "commitMessageExtra": "(non-major)",
       "semanticCommitType": "feat"
     },
     {
@@ -34,7 +34,7 @@
       "updateTypes": ["major"],
       "groupName": "all dependencies",
       "groupSlug": "all-major-dependencies",
-      "commitMessageSuffix": "(major)",
+      "commitMessageExtra": "(major)",
       "semanticCommitType": "feat"
     }
   ]
